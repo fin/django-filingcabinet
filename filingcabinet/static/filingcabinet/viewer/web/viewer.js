@@ -1361,7 +1361,7 @@ var PDFViewerApplication = {
 };
 var validateFileURL = void 0;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'https://static.frag-den-staat.de'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'https://static.frag.denstaat.at'];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
       return;
